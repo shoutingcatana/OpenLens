@@ -1,6 +1,0 @@
-pyproject.toml
-ai_stickers.egg-info/PKG-INFO
-ai_stickers.egg-info/SOURCES.txt
-ai_stickers.egg-info/dependency_links.txt
-ai_stickers.egg-info/requires.txt
-ai_stickers.egg-info/top_level.txt
