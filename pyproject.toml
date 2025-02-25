@@ -1,0 +1,33 @@
+[project]
+name = "ai-stickers"
+version = "0.0.0"
+
+requires-python = "<3.13,>=3.10"
+
+dependencies = [
+    "pytelegrambotapi",
+    "faster-whisper",
+    "openai<1.0.0",
+    "pytest>=8.2.1",
+    "pytesseract>=0.3.13",
+    "pdf2image>=1.17.0",
+    "pymupdf>=1.24.9",
+    "coingate-python>=1.1.0",
+    "qrcode>=7.4.2",
+    "sqlite-utils>=3.37",
+    "pillow>=11.1.0",
+    "pandas>=2.2.3",
+    "opencv-python>=4.11.0.86",
+    "argostranslate>=1.9.6",
+    "numpy>=2.2.3",
+]
+
+[tool.pdm.options]
+add = ["--no-sync", "--no-self"]
+update = ["--no-sync", "--no-self"]
+remove = ["--no-sync", "--no-self"]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
